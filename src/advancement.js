@@ -1,0 +1,21 @@
+import React, { Component } from 'react'
+import logo2 from './images/1_ujsvTUeEe5w-bzTxqIYI6w.jpeg'
+export default class Advancement extends Component {
+    render() {
+        return (
+            <div>
+                <h1>Advancements</h1>
+                <img src={logo2} alt="agri advancement" />
+                <p>
+                In order to further mitigate the adverse effects of food insufficiency and insecurity, countries must rely on technological innovations in the agricultural sector to keep up with increasing food demands. Here are five advancements to agricultural technology that aim to shift the paradigm of hunger and malnourishment for generations to come.
+
+Solar Mini-Grids in Myanmar: In Myanmar, solar mini-grids have played an important role in bringing electricity to hundreds of villages around the country, especially for rural and remote communities, where working mini-grids offer an opportunity to build resilience and farm sustainably. With partial funding from the World Bank and Parami Energy and with villagers  <br></br>covering the rest of the funding, 1,442 households connected to the mini-grid, changing the way many families live and increasing the productivity on their farms. Over the course of 2020, Parami Energy plans to connect 4,097 more homes to the mini-grid system, and by 2030, the government hopes to achieve national electrification for Myanmar.
+GPS-Enabled Cell Phones: Some are using GPS-enabled cell phones to monitor agricultural extension agents (AEAs) in Paraguay. In order to manage how people receive agricultural services, central governments often assign local supervisors some authority over processes. Even though the supervisors are knowledgeable about local affairs, they still may be unable to      <br></br>monitor the performance of workers. These GPS-enabled cell phones allow supervisors to see where AEAs are at all times, how much time they spend in each place and their reported activities with farmers. A research study found that the phones positively influenced the performance of AEAs, increasing the number of farmers they visited by 6%, 22% greater than the AEAs who did not receive monitoring.
+Waru Warus: A revamping of ancient agricultural technologies is coming to fruition in Peru, as sustainable practices increase in a nationwide fight against environmental challenges and poverty. Farmers use waru warus to irrigate crops and store water. This agricultural technology system, a mix of raised beds and irrigation channels, is an inexpensive way to improve <br></br>    crop yields and mitigate the detrimental effects of farming at 12,500 feet above sea level. Alipio Canahua, an agronomist working with the FAO, stated that waru warus capture “water when there are droughts and drain away water when there’s too much rain, meaning that it irrigates the crops all year round.”
+The NextGen Cassava Breeding Project: The NextGen Cassava Breeding project (NextGen Cassava) aims to streamline cassava breeding facilities in Africa and efficiently deliver improved varieties of cassava with advanced technology. The beneficiaries of this project are cassava farmers of Africa, who receive improved cassava varieties and root yields that are more     <br></br>resilient to pests and diseases, and exhibit other desirable traits that farmers prefer. Disease-resistant varieties of cassava take a substantial amount of time to grow. However, with NextGen’s use of accurate computer modeling techniques, this time has reduced by half and much new information on the plant is on the Cassavabase open-source database for future use.
+Rice Transplanters: Japan has widely used rice transplanters for efficient rice seedling planting. This machine aims to lessen the burden on farmers by reducing the need for manual labor in the rice-planting process. First, the rice planter creates a map of the rice field using a GPS while it moves around the perimeter of the field. The planter then calculates its  <br></br>planting route based on the map and automatically plants rice seedlings with the machine. A remote controller needs to monitor the machine, however, a person does not have to drive it, considerably reducing the amount of physical labor necessary.
+                </p>
+            </div>
+        )
+    }
+}
